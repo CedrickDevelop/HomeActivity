@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HomeActivity</string>
+    <string name="Titre_Connexion">Connexion</string>
+    <string name="GoogleBtn">Google</string>
+    <string name="FacebookBtn">Facebook</string>
+    <string name="EmailBtn">Email</string>
+    <string name="InviteBtn">Invite</string>
+    <string name="InscriptionBtn">vous souhaitez vous inscrire</string>
+    <string name="TitleContent">HomeActivity</string>
+    <string name="sloganContent">Gérez vos activités</string>
+    <string name="logoContent">Logo HomeActivity, un mécanisme et un H</string>
+</resources>

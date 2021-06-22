@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "294536335198",
+    "project_id": "homeactivity-26613",
+    "storage_bucket": "homeactivity-26613.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294536335198:android:107a4492375fd8f30089cf",
+        "android_client_info": {
+          "package_name": "fr.cedrickdev.homeactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294536335198-do5dhd3sp9msufbdaaoe88bgdb25648n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD92fzqL14xh0z-qy_YQl-HhPpdo4BVBlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294536335198-do5dhd3sp9msufbdaaoe88bgdb25648n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

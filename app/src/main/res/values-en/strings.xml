@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HomeActivity</string>
+    <string name="Titre_Connexion">Connection</string>
+    <string name="GoogleBtn">Google</string>
+    <string name="FacebookBtn">Facebook</string>
+    <string name="EmailBtn">Email</string>
+    <string name="InviteBtn">Guest</string>
+    <string name="InscriptionBtn">You want to register</string>
+    <string name="TitleContent">HomeActivity</string>
+    <string name="sloganContent">Manage your time</string>
+    <string name="logoContent">HomeActivity picture</string>
+</resources>

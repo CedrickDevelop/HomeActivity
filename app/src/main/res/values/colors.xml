@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_base">#111EF5</color>
+    <color name="mustarde_complementaire">#F5EA11</color>
+    <color name="blue_semblable">#118EF5</color>
+    <color name="violet_semblable">#7811F5</color>
+    <color name="red_pink_triade">#EA11F5</color>
+    <color name="red_carre">#F5111C</color>
+
+    <color name="Logo_primaire">#3d657f</color>
+    <color name="Logo_secondaire">#118EF5</color>
+    <color name="Titre_logo">#233846</color>
+
+
+    <color name="dark_blue_monochrome">#080E75</color>
+    <color name="orange_triade">#F5692A</color>
+    <color name="light_green_carre">#05F553</color>
+    <color name="green_triade">#35A803</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

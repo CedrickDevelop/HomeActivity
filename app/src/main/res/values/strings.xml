@@ -9,4 +9,10 @@
     <string name="TitleContent">HomeActivity</string>
     <string name="sloganContent">Gérez vos activités</string>
     <string name="logoContent">Logo HomeActivity, un mécanisme et un H</string>
+    <string name="Deconnexion">Deconnecter</string>
+    <string name="emailAdress">Adresse Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="SignInbtn">Se connecter</string>
+    <string name="SignInName">Votre nom</string>
+    <string name="SignInFirstName">Votre prénom</string>
 </resources>

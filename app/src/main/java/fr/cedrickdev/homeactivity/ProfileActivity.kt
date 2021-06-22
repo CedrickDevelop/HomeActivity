@@ -3,9 +3,9 @@ package fr.cedrickdev.homeactivity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class GoogleActivity : AppCompatActivity() {
+class ProfileActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_google)
+        setContentView(R.layout.activity_profile)
     }
 }

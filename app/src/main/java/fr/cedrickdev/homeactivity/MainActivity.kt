@@ -5,47 +5,49 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import com.google.firebase.auth.FirebaseAuth
+import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-       /* LoginButtonTouched()
-        RegisterButtonTouched()*/
+        // L'utilisateur existe deja ?
+        UserExist()
+
+        // Lien Enregistrer un nouveau compte
+        Register()
+
+        // Lien pour accéder à la connexion
+        Login()
     }
 
-    // Le Bouton Inscription
-    fun registrationButtonTouched(button: View){
-        val ouverture = Intent(this@MainActivity, RegistrationActivity::class.java)
-        startActivity(ouverture)
-    }
+    private fun UserExist() {
 
-    // Le Bouton Connexion
-    fun loginButtonTouched(button: View){
-        val ouverture = Intent(this@MainActivity, LoginActivity::class.java)
-        startActivity(ouverture)
-    }
+        // Instancie la base de donnée
+        val auth : FirebaseAuth = FirebaseAuth.getInstance()
 
-
-/*    fun LoginButtonTouched(){
-        val buttonLogin: Button = findViewById(R.id.loginBtn)
-        buttonLogin.setOnClickListener {
-            startActivity(Intent(this@MainActivity, LoginActivity::class.java))
+        val currentUser = auth.currentUser
+        if(currentUser != null){
+            startActivity(Intent(this@MainActivity, ProfileActivity::class.java))
             finish()
         }
     }
 
-    fun RegisterButtonTouched(){
-        val buttonRegister: Button = findViewById(R.id.registrationButton)
-        buttonRegister.setOnClickListener {
+
+    private fun Register() {
+        MainRegisterTextView.setOnClickListener {
             startActivity(Intent(this@MainActivity, RegistrationActivity::class.java))
-            finish()
         }
-    }*/
+    }
+
+    private fun Login() {
+        loginBtn.setOnClickListener {
+            startActivity(Intent(this@MainActivity, LoginActivity::class.java))
+        }
+    }
 
 }

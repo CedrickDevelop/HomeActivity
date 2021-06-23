@@ -11,26 +11,34 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class LoginActivity : AppCompatActivity() {
 
-    private lateinit var auth : FirebaseAuth
+    // Instancie la base de donnée
+    private var auth : FirebaseAuth = FirebaseAuth.getInstance()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        // Instancie la base de donnée
-        auth = FirebaseAuth.getInstance()
+        // Si l'utilisateur existe deja on l'envoi au profile
+        UserExist()
 
-        // Si l'utilisateur existe deja on l'envoi au profil
+        // On appelle la fonction de connexion
+        login()
+
+        // On appelle le lien d'enregistrement
+        Register()
+    }
+
+    // Si l'utilisateur existe deja on l'envoi au profile
+    private fun UserExist() {
+        // Si l'utilisateur existe deja on l'envoi au profile
         val currentUser = auth.currentUser
         if(currentUser != null){
             startActivity(Intent(this@LoginActivity, ProfileActivity::class.java))
             finish()
         }
-
-        // On appelle la fonction de connexion
-        login()
     }
 
+    // Lien pour aller vers la page de connexion
     private fun login(){
         val emailLayout: TextInputLayout = findViewById(R.id.LoginEmailAdress)
         val passwordLayout: TextInputLayout = findViewById(R.id.LoginPassword)
@@ -56,7 +64,10 @@ class LoginActivity : AppCompatActivity() {
                     }
                 }
         }
+    }
 
+    // Lien pour aller vers page d'enregistrement
+    private fun Register() {
         RegisterTextView.setOnClickListener {
             startActivity(Intent(this@LoginActivity, RegistrationActivity::class.java))
         }

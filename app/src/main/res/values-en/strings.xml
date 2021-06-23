@@ -10,4 +10,27 @@
     <string name="TitleContent">HomeActivity</string>
     <string name="sloganContent">Manage your time</string>
     <string name="logoContent">HomeActivity picture</string>
+    <string name="Deconnexion">Logout</string>
+    <string name="emailAdress">Email Adress</string>
+    <string name="password">Password</string>
+    <string name="SignInbtn">Login</string>
+    <string name="SignInName">Your name</string>
+    <string name="SignInFirstName">Your firstname</string>
+    <string name="Title_Connection">Login</string>
+    <string name="GuestBtn">Guest</string>
+    <string name="RegisterBtn">You want to Register</string>
+    <string name="formName">Your name</string>
+    <string name="formFirstName">Your firstname</string>
+    <string name="formEmailAdress">Email Adress</string>
+    <string name="formPassword">Password</string>
+    <string name="formBtnLogin">Login</string>
+    <string name="formBtnRegister">Register</string>
+    <string name="Logout">Logout</string>
+    <string name="registerLink">You are not Registered, create an accompt</string>
+    <string name="registrationSucceed">Welcome</string>
+    <string name="registrationFailed">Verify your informations,and try again</string>
+    <string name="labelFirstnameName">Name / Firstname</string>
+    <string name="labelEmail">Email</string>
+    <string name="loginSucceed">You are connected successfully</string>
+    <string name="loginFailed">We can\'t agreed, verify your informations</string>
 </resources>

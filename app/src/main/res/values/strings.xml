@@ -1,18 +1,56 @@
 <resources>
+    <!--Général -->
     <string name="app_name">HomeActivity</string>
-    <string name="Titre_Connexion">Connexion</string>
-    <string name="GoogleBtn">Google</string>
-    <string name="FacebookBtn">Facebook</string>
-    <string name="EmailBtn">Email</string>
-    <string name="InviteBtn">Invite</string>
-    <string name="InscriptionBtn">vous souhaitez vous inscrire</string>
+
+    <!--Général pour le logo et slogan-->
     <string name="TitleContent">HomeActivity</string>
     <string name="sloganContent">Gérez vos activités</string>
     <string name="logoContent">Logo HomeActivity, un mécanisme et un H</string>
-    <string name="Deconnexion">Deconnecter</string>
+
+    <!--Page d'ouverture -->
+    <string name="Title_Connection">Connexion</string>
+    <string name="GoogleBtn">Google</string>
+    <string name="FacebookBtn">Facebook</string>
+    <string name="EmailBtn">Email</string>
+    <string name="GuestBtn">Invite</string>
+
+    <!--Page d'ouverture + Login-->
+    <string name="RegisterBtn">Vous souhaitez vous inscrire ? Cliquez ici</string>
+
+    <!--Page d'authentification, inscription -->
+    <string name="formName">Votre nom</string>
+    <string name="formFirstName">Votre prénom</string>
+    <string name="formEmailAdress">Adresse Email</string>
+    <string name="formPassword">Mot de passe</string>
+
+    <string name="formBtnLogin">Se connecter</string>
+    <string name="formBtnRegister">S\'inscrire</string>
+    <string name="Logout">Se déconnecter</string>
+
+    <string name="registerLink">Vous n\'avez pas de compte ? Inscrivez-vous</string>
+
+    <!--Page de Profile -->
+    <string name="labelFirstnameName">Nom / Prenom</string>
+    <string name="labelEmail">Email</string>
+    <string name="labelInformations">Vos informations</string>
+
+    <!--Registration kt -->
+    <string name="registrationSucceed">Votre profil a bien été créé, bienvenue chez HomeActivity</string>
+    <string name="registrationFailed">Problème d\'inscription de votre compte, vérifiez les informations</string>
+
+    <!--Login kt -->
+    <string name="loginSucceed">Vous êtes connectés, bienvenue chez HomeActivity</string>
+    <string name="loginFailed">Problème de connexion à votre compte, vérifiez les informations</string>
+
+
+
+    <string name="Titre_Connexion">Connexion</string>
+    <string name="InviteBtn">Invite</string>
+    <string name="InscriptionBtn">Inscription</string>
+    <string name="Deconnexion">Deconnexion</string>
     <string name="emailAdress">Adresse Email</string>
-    <string name="password">Mot de passe</string>
+    <string name="password">Mote de passe</string>
     <string name="SignInbtn">Se connecter</string>
-    <string name="SignInName">Votre nom</string>
-    <string name="SignInFirstName">Votre prénom</string>
+    <string name="SignInFirstName">Prénom</string>
+    <string name="SignInName">Nom</string>
 </resources>

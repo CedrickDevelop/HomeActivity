@@ -51,7 +51,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="32dp"
-        android:text="@string/Titre_Connexion"
+        android:text="@string/Title_Connection"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textSize="24sp"
@@ -61,11 +61,10 @@
         app:layout_constraintTop_toBottomOf="@+id/imageLogo" />
 
     <Button
-        android:id="@+id/googlebtn"
+        android:id="@+id/googleBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:onClick="googleBtnTouched"
         android:text="@string/GoogleBtn"
         android:textColorLink="@color/orange_triade"
         app:layout_constraintEnd_toEndOf="parent"
@@ -82,13 +81,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/googlebtn" />
+        app:layout_constraintTop_toBottomOf="@+id/googleBtn" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/loginBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:onClick="loginButtonTouched"
         android:text="@string/EmailBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -97,21 +97,21 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/InviteBtn"
+        android:text="@string/GuestBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/loginBtn" />
 
     <Button
         android:id="@+id/registrationButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="registrationButtonTouched"
-        android:text="@string/InscriptionBtn"
+        android:text="@string/RegisterBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4" />

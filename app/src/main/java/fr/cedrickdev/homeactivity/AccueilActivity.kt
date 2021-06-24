@@ -24,6 +24,8 @@ class AccueilActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId){
+            R.id.topMenuCourses -> CoursesTopMenuTouched()
+            R.id.topMenuTâches -> TachesTopMenuTouched()
             R.id.topMenuAccount -> AccountTopMenuButtonTouched()
             R.id.topMenuHelp -> HelpTopMenuButtonTouched()
             R.id.topMenuSettings -> SettingsTopMenuButtonTouched()
@@ -32,18 +34,24 @@ class AccueilActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
+    private fun TachesTopMenuTouched() {
+        /*startActivity(Intent(this@AccueilActivity, ProfileActivity::class.java))*/
+    }
+
+    private fun CoursesTopMenuTouched() {
+        startActivity(Intent(this@AccueilActivity, CoursesChoixActivity::class.java))
+    }
+
     private fun AccountTopMenuButtonTouched() {
-        println("J'affiche le compte")
         startActivity(Intent(this@AccueilActivity, ProfileActivity::class.java))
     }
 
     private fun HelpTopMenuButtonTouched() {
-        println("J'affiche l'aide'")
         startActivity(Intent(this@AccueilActivity, AideActivity::class.java))
     }
 
     private fun SettingsTopMenuButtonTouched() {
-        println("J'affiche les reglages")
+        /*startActivity(Intent(this@AccueilActivity, ProfileActivity::class.java))*/
     }
 
 

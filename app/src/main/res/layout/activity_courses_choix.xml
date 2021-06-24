@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoursesChoixActivity">
+
+    <TextView
+        android:id="@+id/titre_PageCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/TitrePageCourses"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_nouvelleTache"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/Logo_primaire"
+        android:text="@string/nouvelleTacheBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/icon_NouvelleListe"
+        app:layout_constraintTop_toBottomOf="@+id/titre_PageCourse" />
+
+    <ImageView
+        android:id="@+id/icon_NouvelleListe"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/altIconNouvelleListe"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_nouvelleTache"
+        app:layout_constraintEnd_toStartOf="@+id/btn_nouvelleTache"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/baseline_add_shopping_cart_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

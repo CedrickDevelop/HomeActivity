@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HomeActivity">
-        <activity android:name=".CoursesChoixActivity"></activity>
+        <activity android:name=".CoursesListeActivity"></activity>
+        <activity android:name=".CoursesChoixActivity" />
         <activity android:name=".AideActivity" />
         <activity android:name=".AccueilActivity" />
         <activity android:name=".ProfileActivity" />

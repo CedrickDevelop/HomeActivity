@@ -26,14 +26,13 @@ class ProfileActivity : AppCompatActivity() {
         databaseReference = database?.reference!!.child("profile")
 
         loadProfile()
+/*        LoadUserProfil().loadUser()*/
 
     }
 
     private fun loadProfile(){
         val user = auth.currentUser
         val userReference = databaseReference?.child(user?.uid!!)
-
-        /*uidTextview.text = databaseReference?.child(user?.uid!!).toString()*/
 
         // Recuperation et affichage de l'email
         emailTextview.text = user?.email

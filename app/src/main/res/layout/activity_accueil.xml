@@ -6,4 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".AccueilActivity">
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="169dp"
+        android:layout_height="93dp"
+        android:text="Bienvenu à l'accueil"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

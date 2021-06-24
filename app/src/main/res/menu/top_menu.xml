@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/topMenuCourses"
+        android:icon="@drawable/baseline_shopping_basket_24"
+        android:title="@string/topMenuCourses"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/topMenuTâches"
+        android:icon="@drawable/baseline_event_available_24"
+        android:title="@string/topMenuTaches"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/topMenuAccount"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="@string/MenuCreationCompte"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/topMenuSettings"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="@string/MenuOptions"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/topMenuHelp"
+        android:icon="@drawable/baseline_help_24"
+        android:title="@string/MenuAide"
+        app:showAsAction="never" />
+</menu>

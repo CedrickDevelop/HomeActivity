@@ -33,7 +33,7 @@ class LoginActivity : AppCompatActivity() {
         // Si l'utilisateur existe deja on l'envoi au profile
         val currentUser = auth.currentUser
         if(currentUser != null){
-            startActivity(Intent(this@LoginActivity, ProfileActivity::class.java))
+            startActivity(Intent(this@LoginActivity, AccueilActivity::class.java))
             finish()
         }
     }
@@ -56,7 +56,7 @@ class LoginActivity : AppCompatActivity() {
             auth.signInWithEmailAndPassword(emailLayout.editText?.text.toString(), passwordLayout.editText?.text.toString())
                 .addOnCompleteListener {
                     if(it.isSuccessful){
-                        startActivity(Intent(this@LoginActivity, ProfileActivity::class.java))
+                        startActivity(Intent(this@LoginActivity, AccueilActivity::class.java))
                         finish()
                     } else {
                         //Message pour indiquer l'échec de l'opération

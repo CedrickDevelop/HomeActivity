@@ -40,10 +40,10 @@
 
     <!--Login kt -->
     <string name="loginSucceed">Vous êtes connectés, bienvenue chez HomeActivity</string>
-    <string name="loginFailed">Problème de connexion à votre compte, vérifiez les informations</string>
+    <string name="loginFailed">Vous avez effectué une erreur dans la saisie de votre mot de passe ou identifiant. Veuillez recommencer</string>
 
 
-
+    <!--A Classer-->
     <string name="Titre_Connexion">Connexion</string>
     <string name="InviteBtn">Invite</string>
     <string name="InscriptionBtn">Inscription</string>
@@ -53,4 +53,17 @@
     <string name="SignInbtn">Se connecter</string>
     <string name="SignInFirstName">Prénom</string>
     <string name="SignInName">Nom</string>
+
+    <!--Menu-->
+    <string name="MenuCreationCompte">Gérer mon compte</string>
+    <string name="MenuOptions">Options</string>
+    <string name="MenuAide">Aide</string>
+    <string name="topMenuCourses">Courses</string>
+    <string name="topMenuTaches">Tâches</string>
+
+    <!--Aide-->
+    <string name="PageAide">"Aide Application "</string>
+    <string name="PageAideTaches">Permet de gerer la creation de nouvelles tâches ménagères. Vous pourrez créer votre liste d\'actions à réaliser. Vous chronomètrer et cocher ce qui a déjà été fait.</string>
+    <string name="PageAideCourses">Permet de creer une nouvelle liste de courses. Vous pouvez classer par thématique les éléments à acheter ainsi que cocher ce qui a déjà été acheté. Et tout cela très simplement. Gérez vos listes et prochains besoins.</string>
+    <string name="PageAideAccount">Page profile sur laquelle vous pourrez gérer vos informations personnelles. Vous pourrez manager comme bon vous semble votre compte</string>
 </resources>

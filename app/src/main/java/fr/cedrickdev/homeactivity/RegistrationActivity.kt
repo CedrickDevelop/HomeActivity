@@ -109,7 +109,7 @@ class RegistrationActivity : AppCompatActivity() {
                         Toast.makeText(this@RegistrationActivity, getString(R.string.registrationSucceed), Toast.LENGTH_LONG).show()
 
                         // On fini cette activité de page et on envoi vers le profile
-                        startActivity(Intent(this@RegistrationActivity, ProfileActivity::class.java))
+                        startActivity(Intent(this@RegistrationActivity, AccueilActivity::class.java))
                         finish()
 
 

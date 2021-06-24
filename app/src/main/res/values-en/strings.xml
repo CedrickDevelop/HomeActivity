@@ -32,5 +32,9 @@
     <string name="labelFirstnameName">Name / Firstname</string>
     <string name="labelEmail">Email</string>
     <string name="loginSucceed">You are connected successfully</string>
-    <string name="loginFailed">We can\'t agreed, verify your informations</string>
+    <string name="loginFailed">You probably did a mistake on your password or identification. Please try again</string>
+    <string name="labelInformations">Private informations</string>
+    <string name="MenuCreationCompte">Account</string>
+    <string name="MenuOptions">Settings</string>
+    <string name="MenuAide">Help</string>
 </resources>
